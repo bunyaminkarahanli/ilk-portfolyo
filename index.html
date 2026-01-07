@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bunyaminkarahanli</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="icon" href="img/bk2.jpg" type="image/jpg" />
+
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="icon" href="img/bk2.jpg" type="image/jpg" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- header -->
     <header class="header">
       <a href="#home" class="logo">
-        <img src="img/bk.png" alt="" /> <span class="logo-text">ARAHANLI</span>
+        <img src="img/bk.png" alt="Bünyamin Karahanlı Logo" />
+        <span class="logo-text">ARAHANLI</span>
       </a>
-      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <i class="bx bx-menu" id="menu-icon" aria-label="Menü"></i>
+
       <nav class="navbar">
         <a href="#home" class="active">Ana Sayfa</a>
         <a href="#my-work">Çalışmalarım</a>
@@ -31,44 +37,68 @@
     <!-- home -->
     <section class="home" id="home">
       <div class="home-content">
-        <h1>Merhaba,ben Bünyamin</h1>
+        <h1>Merhaba, ben Bünyamin</h1>
         <h3 class="text-animation"><span></span></h3>
+
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
-          soluta doloremque reiciendis quia quisquam, nesciunt nam, accusamus,
-          tempora eos incidunt voluptatem doloribus maxime beatae eligendi
-          dolore vitae. Sed, eaque eligendi.lorem Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Explicabo amet magni ipsam optio
-          repellendus, nemo voluptate dicta minus perferendis, sint qui iure
-          unde quo voluptatem debitis quas, culpa expedita pariatur? Lorem,
-          ipsum dolor sit amet consectetur adipisicing elit. Dicta, tempore?
+          Kendi kendime öğrenerek web siteleri ve mobil uygulamalar
+          geliştiriyorum. Basit, anlaşılır ve işlevsel çözümler üretmeye
+          çalışıyorum. Geliştirme sürecinde yapay zekâyı bir yardımcı olarak
+          kullanıyorum.
         </p>
+
         <div class="social-icons">
-          <a href="#" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-          <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
-          <a href="#" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+          <a
+            href="https://www.instagram.com/bnymnkarahanli/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://x.com/karahanlibunyo"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/b%C3%BCnyamin-karahanl%C4%B1-9a1a8635a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
         </div>
+
         <div class="btn-group">
           <a href="#contact" class="btn">Bana ulaş</a>
         </div>
       </div>
 
       <div class="home-img">
-        <img src="img/bk.png" alt="" class="bounce-in-image" />
+        <img
+          src="img/bk.png"
+          alt="Bünyamin Karahanlı"
+          class="bounce-in-image"
+        />
       </div>
     </section>
 
     <!-- mywork -->
     <section class="my-work" id="my-work">
       <h2 class="heading">Çalışmalarım</h2>
+
       <div class="my-work-items">
         <div class="my-work-item">
           <div class="my-work-dot"></div>
 
-          <a href="https://www.hazelfindik.com" target="_blank">
+          <a
+            class="my-work-link"
+            href="https://www.hazelfindik.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div class="my-work-card">
               <div class="my-work-card-img">
-                <img src="img/logo.svg" />
+                <img src="img/logo.svg" alt="Hazel Fındık Logo" />
               </div>
               <div class="my-work-card-content">
                 <h3>www.hazelfindik.com</h3>
@@ -80,58 +110,54 @@
         <div class="my-work-item">
           <div class="my-work-dot"></div>
 
-          <a href="#" target="_blank">
+          <a
+            class="my-work-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div class="my-work-card">
               <div class="my-work-card-img">
-                <img src="img/app_icon.png" />
+                <img src="img/app_icon.png" alt="Hangi Uygulaması" />
               </div>
               <div class="my-work-card-content">
-                <h3>Hangi</h3>
+                <h3>
+                  Hangi <br />
+                  (Yakında Google Play Store’da)
+                </h3>
               </div>
             </div>
           </a>
         </div>
+
         <div class="my-work-item">
           <div class="my-work-dot"></div>
           <div class="my-work-card">
-            <div class="my-work-card-img">
-              <img src="img/work-3.jpeg" alt="" />
-            </div>
+            <div class="my-work-card-img"></div>
             <div class="my-work-card-content">
-              <h3>Proje</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                omnis esse animi rerum distinctio est, beatae dolores, possimus
-                mollitia ipsam autem quasi itaque placeat, consectetur accusamus
-                quis atque eveniet molestiae.
-              </p>
+              <h3></h3>
+              <p>...</p>
             </div>
           </div>
         </div>
+
         <div class="my-work-item">
           <div class="my-work-dot"></div>
           <div class="my-work-card">
-            <div class="my-work-card-img">
-              <img src="img/work-3.jpeg" alt="" />
-            </div>
+            <div class="my-work-card-img"></div>
             <div class="my-work-card-content">
-              <h3>Proje</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                omnis esse animi rerum distinctio est, beatae dolores, possimus
-                mollitia ipsam autem quasi itaque placeat, consectetur accusamus
-                quis atque eveniet molestiae.
-              </p>
+              <h3></h3>
+              <p>...</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- services-about -->
-
+    <!-- services -->
     <section class="services" id="services">
       <h2 class="heading">Hizmetler</h2>
+
       <div class="services-container">
         <div class="services-container-dot dot-left"></div>
         <div class="services-container-dot dot-right"></div>
@@ -175,27 +201,33 @@
     <!-- about -->
     <section class="about" id="about">
       <h2 class="heading">Hakkında</h2>
+
       <div class="about-container">
         <div class="about-text">
           <h3>Herkese Selam</h3>
           <p>
-            Ben Bünyamin Karahanlı Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Asperiores, quas necessitatibus tempora officiis
-            omnis recusandae saepe, culpa repellat doloremque at optio aperiam
-            quaerat veritatis incidunt dolorem ea. Fugiat, sed aliquam.lorem
-            Ldeleniti adipisci officiis nemo qui, reiciendis delectus totam
-            porro nisi, atque eos. Perspiciatis id deserunt, quos beatae
-            similique quia suscipit quibusdam sunt officiis, dignissimos ab
-            consectetur, cupiditate repudiandae necessitatibus? Placeat sunt
-            eveniet cupiditate rerum doloribus hic tempora ea facere ex
-            molestiae, architecto nam explicabo dicta, consectetur fugit.
-            Perspiciatis?
+            Ben Bünyamin Karahanlı, 18.07.1997 doğumluyum ve Kocaeli / Gölcük’te
+            yaşıyorum.
+            <br /><br />
+            Kocaeli Üniversitesi Endüstriyel Kalıpçılık bölümünden mezun oldum.
+            Şu anda ise İstanbul Üniversitesi’nde açık öğretim olarak Web
+            Geliştirme ve Kodlama eğitimi almaya devam ediyorum.
+            <br /><br />
+            Yaklaşık 7 yıl Jandarma teşkilatında görev yaptım. Bu süreçte
+            disiplinli çalışma, sorumluluk alma ve ekip içinde uyumlu hareket
+            etme konularında önemli deneyimler kazandım.
+            <br /><br />
+            Web ve mobil uygulama geliştirme alanına ilgimle yöneldim. Kendi
+            kendime öğrenerek bu alanda projeler üretmeye devam ediyorum.
+            Öğrenmeye açık, gayretli ve ekip çalışmasına yatkın bir yapıya
+            sahibim.
           </p>
         </div>
+
         <div class="my-photo">
           <img
             src="img/WhatsApp Görsel 2025-04-06 saat 22.45.35_3d92b9a4.jpg"
-            alt=""
+            alt="Bünyamin Karahanlı Fotoğraf"
           />
         </div>
       </div>
@@ -205,37 +237,35 @@
     <section class="contact sub sub-contact" id="contact">
       <div>
         <h2 class="heading">İletişim</h2>
-        <form action="#">
-          <div class="input-group">
-            <div class="input-box">
-              <input type="text" placeholder="Adınız" required />
-              <input type="email" placeholder="E-posta" required />
-              <input type="number" placeholder="Telefon" required />
-            </div>
-          </div>
-          <div class="input-group-2">
-            <div class="input-box">
-              <textarea
-                placeholder="Mesajınız.."
-                name=""
-                id=""
-                required
-              ></textarea>
-              <input type="submit" value="Mesajı Gönder" />
-            </div>
-          </div>
-        </form>
+
+        <div class="whatsapp-box">
+          <textarea
+            id="contactMessage"
+            placeholder="Mesajınızı buraya yazın..."
+            required
+          ></textarea>
+
+          <button type="button" id="whatsappSendBtn">
+            WhatsApp’tan Gönder
+          </button>
+        </div>
       </div>
     </section>
 
     <!-- footer -->
-
     <footer>
       <div class="social-icons">
-        <a href="#" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-        <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
-        <a href="#" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
       </div>
+
       <nav class="navbar">
         <a href="#home" class="active">Ana Sayfa</a>
         <a href="#my-work">Çalışmalarım</a>
@@ -243,6 +273,7 @@
         <a href="#about">Hakkında</a>
         <a href="#contact">İletişim</a>
       </nav>
+
       <p class="copyright">&copy; Bünyamin Karahanlı | Tüm Hakları Saklıdır.</p>
     </footer>
 
