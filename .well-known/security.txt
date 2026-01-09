@@ -1,0 +1,12 @@
+Contact: https://bunyaminkarahanli.com/index.html#contact
+Expires: 2027-01-09T00:00:00.000Z
+Preferred-Languages: tr, en
+Canonical: https://bunyaminkarahanli.com/.well-known/security.txt
+
+# Güvenlik Açığı Bildirimi
+# Bu web sitesinde bir güvenlik açığı bulduysanız, lütfen yukarıdaki iletişim bilgileri üzerinden bize ulaşın.
+# Güvenlik açıklarını sorumlu bir şekilde bildirmenizi rica ederiz.
+
+# Security Vulnerability Disclosure
+# If you have found a security vulnerability on this website, please contact us using the contact information above.
+# We ask that you report security vulnerabilities responsibly.

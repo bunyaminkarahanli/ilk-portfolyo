@@ -1,0 +1,17 @@
+{
+  "name": "Bünyamin Karahanlı - Mobil ve Web Geliştirici",
+  "short_name": "Bünyamin Karahanlı",
+  "description": "Mobil ve web geliştirici Bünyamin Karahanlı'nın kişisel web sitesi ve portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#ffffff",
+  "lang": "tr"
+}

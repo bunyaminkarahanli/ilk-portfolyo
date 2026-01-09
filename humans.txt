@@ -1,0 +1,18 @@
+/* TEAM */
+Developer: Bünyamin Karahanlı
+Contact: https://bunyaminkarahanli.com/pages/gizlilik-politikasi.html
+From: Turkey
+Twitter: @karahanlibunyo
+GitHub: bunyaminkarahanli
+
+/* THANKS */
+Fonts: Google Fonts (Poppins)
+Icons: Boxicons
+Analytics: Google Analytics
+
+/* SITE */
+Last update: 2026/01/09
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Vanilla JavaScript
+Software: Visual Studio Code
+Language: Turkish

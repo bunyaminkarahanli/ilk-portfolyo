@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Özel / indekslenmesi gerekmeyen alanlar
+Disallow: /uploads/
+
+# Sitemap
+Sitemap: https://bunyaminkarahanli.com/sitemap.xml
