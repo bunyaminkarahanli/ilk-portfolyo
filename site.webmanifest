@@ -4,7 +4,7 @@
   "description": "Mobil ve web geliştirici Bünyamin Karahanlı'nın kişisel web sitesi ve portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "32x32",
       "type": "image/x-icon"
     }
