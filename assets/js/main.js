@@ -2,11 +2,25 @@
 const menuicon = document.querySelector("#menu-icon");
 const navbar = document.querySelector(".navbar");
 
+// Menü ikonunu toggle et (hamburger <-> X)
+function toggleMenuIcon(isExpanded) {
+  if (menuicon) {
+    if (isExpanded) {
+      menuicon.classList.remove("bx-menu");
+      menuicon.classList.add("bx-x");
+    } else {
+      menuicon.classList.remove("bx-x");
+      menuicon.classList.add("bx-menu");
+    }
+  }
+}
+
 if (menuicon && navbar) {
   menuicon.addEventListener("click", (e) => {
     e.stopPropagation();
     const isExpanded = navbar.classList.toggle("active");
     menuicon.setAttribute("aria-expanded", isExpanded);
+    toggleMenuIcon(isExpanded);
   });
 
   // Menü içindeki linke basınca kapat
@@ -14,6 +28,7 @@ if (menuicon && navbar) {
     a.addEventListener("click", () => {
       navbar.classList.remove("active");
       menuicon.setAttribute("aria-expanded", "false");
+      toggleMenuIcon(false);
     });
   });
 
@@ -22,6 +37,7 @@ if (menuicon && navbar) {
     if (!navbar.contains(e.target) && !menuicon.contains(e.target)) {
       navbar.classList.remove("active");
       menuicon.setAttribute("aria-expanded", "false");
+      toggleMenuIcon(false);
     }
   });
 
@@ -30,6 +46,7 @@ if (menuicon && navbar) {
     if (e.key === "Escape") {
       navbar.classList.remove("active");
       menuicon.setAttribute("aria-expanded", "false");
+      toggleMenuIcon(false);
     }
   });
 }

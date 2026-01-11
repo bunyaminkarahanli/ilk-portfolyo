@@ -148,11 +148,17 @@ section {
   cursor: pointer;
   border: none;
   padding: 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 #menu-icon:focus {
   outline: 2px solid var(--main-color);
   outline-offset: 2px;
+}
+
+#menu-icon:hover {
+  transform: scale(1.1);
+  color: var(--main-color);
 }
 
 /*
@@ -246,6 +252,41 @@ section {
   100% {
     opacity: 1;
     transform: translateX(0) translateY(40px);
+  }
+}
+
+@keyframes way_home_mobile {
+  0% {
+    opacity: 0.2;
+    transform: translateX(200px) translateY(200px);
+  }
+  15% {
+    opacity: 0.4;
+    transform: translateX(-100px) translateY(-200px);
+  }
+  30% {
+    opacity: 0.5;
+    transform: translateX(100px) translateY(-200px);
+  }
+  45% {
+    opacity: 0.6;
+    transform: translateX(100px) translateY(200px);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateX(-100px) translateY(100px);
+  }
+  75% {
+    opacity: 0.8;
+    transform: translateX(-150px) translateY(-75px);
+  }
+  90% {
+    opacity: 0.9;
+    transform: translateX(150px) translateY(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(10px);
   }
 }
 
@@ -837,16 +878,71 @@ footer .copyright {
     padding: 21.5rem 10% 10rem !important;
   }
 
+  /* Header mobil görünüm - padding azaltıldı */
+  .header {
+    padding: 2rem 5% 2rem;
+  }
+
   /* Header menu */
   #menu-icon {
     display: block;
     cursor: pointer;
     font-size: 6rem;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), 
+                color 0.3s ease,
+                opacity 0.3s ease;
+  }
+
+  #menu-icon:hover {
+    transform: scale(1.15) rotate(5deg);
+  }
+
+  /* Hamburger ikon animasyonu - X'e dönüşürken */
+  #menu-icon.bx-x {
+    transform: rotate(180deg);
+    animation: iconRotate 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  #menu-icon.bx-menu {
+    animation: iconRotateBack 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  @keyframes iconRotate {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: rotate(90deg) scale(1.2);
+      opacity: 0.7;
+    }
+    100% {
+      transform: rotate(180deg) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes iconRotateBack {
+    0% {
+      transform: rotate(180deg) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: rotate(90deg) scale(1.2);
+      opacity: 0.7;
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+      opacity: 1;
+    }
   }
 
   header nav a {
     padding: 1rem 0 1rem 1rem;
     text-align: start;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   header nav {
@@ -863,11 +959,53 @@ footer .copyright {
     padding: 1rem 0 1rem 1rem;
     display: none;
     flex-direction: column;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   .navbar.active {
     display: flex;
     flex-direction: column;
+    opacity: 1;
+    transform: translateY(0);
+    animation: menuSlideDown 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .navbar.active a {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .navbar.active a:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+
+  .navbar.active a:nth-child(2) {
+    transition-delay: 0.15s;
+  }
+
+  .navbar.active a:nth-child(3) {
+    transition-delay: 0.2s;
+  }
+
+  .navbar.active a:nth-child(4) {
+    transition-delay: 0.25s;
+  }
+
+  .navbar.active a:nth-child(5) {
+    transition-delay: 0.3s;
+  }
+
+  @keyframes menuSlideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px) scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
   }
 
   /* Home */
@@ -875,6 +1013,12 @@ footer .copyright {
     flex-direction: column-reverse;
     margin-top: 30rem;
     gap: 5rem;
+  }
+
+  /* Home img mobil - daha büyük logo ve yukarı konum */
+  .home-img img {
+    width: 35vw;
+    animation: way_home_mobile 4s ease-in-out 0.5s forwards;
   }
 
   /* My work mobil */
