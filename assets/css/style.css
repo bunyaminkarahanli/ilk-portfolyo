@@ -97,7 +97,7 @@ section {
 
 .header img {
   width: 70px;
-  height: 55px;
+  height: auto;
 }
 
 .header .logo {
@@ -201,6 +201,8 @@ section {
 
 .home-img img {
   width: 20vw;
+  height: auto;
+  object-fit: contain;
   box-shadow: 0 0 20px var(--main-color);
   transition: 0.4s ease-in-out;
   cursor: pointer;
@@ -693,8 +695,8 @@ img[loading="lazy"] {
 }
 
 .my-photo img {
-  height: 29.4rem;
   width: 24.6rem;
+  height: auto;
   z-index: 1;
 }
 

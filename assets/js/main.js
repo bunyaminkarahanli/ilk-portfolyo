@@ -91,6 +91,15 @@ if (whatsappBtn && contactMessage) {
         ad_user_data: "denied",
         ad_personalization: "denied"
       });
+
+      // Manuel page_view sadece kullanıcı kabul ettikten sonra gönderilir
+      if (value === "accepted") {
+        window.gtag("event", "page_view", {
+          page_title: document.title,
+          page_location: window.location.href,
+          page_path: window.location.pathname
+        });
+      }
     }
   }
 
