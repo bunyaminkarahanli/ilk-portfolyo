@@ -7,7 +7,7 @@
     <title>Gizlilik Politikası - Bünyamin Karahanlı</title>
     <meta
       name="description"
-      content="Bünyamin Karahanlı kişisel web sitesi gizlilik politikası ve çerez kullanımı bilgilendirmesi."
+      content="Bünyamin Karahanlı kişisel web sitesi gizlilik politikası ve kişisel verilerin korunması bilgilendirmesi."
     />
     
     <link rel="canonical" href="https://bunyaminkarahanli.com/pages/gizlilik-politikasi.html" />
@@ -17,16 +17,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="../assets/css/style.css" />
     
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VT9YNH7L0R"></script>
+    <!-- Google Analytics (GA4) + Consent Mode (default denied) -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted'
+      });
+
       gtag('js', new Date());
       gtag('config', 'G-VT9YNH7L0R', {
-        'anonymize_ip': true
+        anonymize_ip: true
       });
     </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VT9YNH7L0R"></script>
   </head>
 
   <body>
@@ -52,125 +63,408 @@
         
         <div style="font-size: 1.6rem; line-height: 1.8; color: var(--text-color);">
           <p style="margin-bottom: 2rem;">
-            <strong>Son Güncelleme:</strong> 1 Ocak 2025
+            <strong>Son Güncelleme:</strong> 11 Ocak 2026
           </p>
 
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">1. Genel Bilgiler</h2>
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">1. Genel Bilgilendirme</h2>
           <p style="margin-bottom: 2rem;">
-            Bu web sitesi (bunyaminkarahanli.com), Bünyamin Karahanlı'nın kişisel portfolio ve CV web sitesidir. 
-            Bu gizlilik politikası, web sitesini ziyaret ettiğinizde toplanan bilgiler ve bu bilgilerin nasıl kullanıldığı hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.
+            Bu gizlilik politikası, <strong>https://bunyaminkarahanli.com</strong> alan adlı kişisel portföy web sitesi için hazırlanmıştır. 
+            Site, mobil ve web geliştirme alanındaki projelerimi, yeteneklerimi ve iletişim bilgilerimi paylaşmak amacıyla oluşturulmuş kişisel bir platformdur.
+          </p>
+          <p style="margin-bottom: 2rem;">
+            Bu sitede <strong>herhangi bir ticari satış, ürün satışı, üyelik sistemi veya ödeme işlemi bulunmamaktadır</strong>. 
+            Site, yalnızca bilgilendirme ve profesyonel tanıtım amaçlı olup, ziyaretçilerin kişisel verilerinin korunmasına azami özen gösterilmektedir.
+          </p>
+          <p style="margin-bottom: 2rem;">
+            Bu politika, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) 
+            çerçevesinde hazırlanmış olup, web sitesini ziyaret ettiğinizde hangi bilgilerin toplandığı, 
+            bu bilgilerin nasıl kullanıldığı ve haklarınızın neler olduğu konularında sizi bilgilendirmeyi amaçlamaktadır.
           </p>
 
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">2. Toplanan Bilgiler</h2>
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">2. Veri Sorumlusu</h2>
           <p style="margin-bottom: 1.5rem;">
-            Bu web sitesi, ziyaretçi deneyimini iyileştirmek ve site trafiğini analiz etmek amacıyla aşağıdaki bilgileri otomatik olarak toplamaktadır:
+            6698 sayılı KVKK ve GDPR kapsamında, bu web sitesinde toplanan kişisel verilerinizin işlenmesinden sorumlu kişi:
+          </p>
+          <div style="background-color: var(--second-bg-color); padding: 2rem; border-radius: 1rem; margin-bottom: 2rem; border-left: 4px solid var(--main-color);">
+            <p style="margin-bottom: 1rem;"><strong>Veri Sorumlusu:</strong> Bünyamin Karahanlı</p>
+            <p style="margin-bottom: 1rem;"><strong>Web Sitesi:</strong> <a href="https://bunyaminkarahanli.com" style="color: var(--main-color); text-decoration: underline;">https://bunyaminkarahanli.com</a></p>
+            <p style="margin-bottom: 0;"><strong>İletişim:</strong> Web sitesindeki <a href="../index.html#contact" style="color: var(--main-color); text-decoration: underline;">iletişim formu</a> üzerinden ulaşabilirsiniz.</p>
+          </div>
+          <p style="margin-bottom: 2rem;">
+            Kişisel verilerinizin işlenmesi, silinmesi veya düzeltilmesi ile ilgili tüm taleplerinizi yukarıdaki iletişim bilgileri üzerinden bana iletebilirsiniz.
+          </p>
+
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">3. İşlenen Kişisel Veriler</h2>
+          <p style="margin-bottom: 1.5rem;">
+            Bu web sitesini ziyaret ettiğinizde, sitenin teknik işleyişi ve güvenliği için bazı bilgiler otomatik olarak toplanmaktadır. 
+            <strong>Bu sitede kayıt, üyelik veya form doldurma sistemi bulunmamaktadır</strong>. Toplanan veriler şunlardır:
           </p>
           <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>IP Adresi (Anonimleştirilmiş):</strong> Ziyaretçilerin IP adresleri, güvenlik ve teknik analiz amacıyla anonim hale getirilerek saklanmaktadır. 
+              IP adresinizin son segmenti maskelenmekte ve sizin kimliğinizi belirlemeye yarayacak şekilde işlenmemektedir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Tarayıcı ve Cihaz Bilgileri:</strong> Kullandığınız tarayıcı türü (Chrome, Firefox vb.), tarayıcı versiyonu, 
+              işletim sistemi (Windows, macOS, Android vb.), cihaz türü (masaüstü, tablet, mobil) ve ekran çözünürlüğü gibi teknik bilgiler.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Sayfa Görüntüleme Bilgileri:</strong> Hangi sayfaları ziyaret ettiğiniz, sayfada ne kadar süre kaldığınız, 
+              hangi linkler üzerinden siteye geldiğiniz (referans URL) ve site içinde hangi bağlantılara tıkladığınız.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Ziyaret Tarihi ve Saati:</strong> Siteyi ziyaret ettiğiniz tarih ve saat bilgisi.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Coğrafi Konum (Genel):</strong> IP adresinizden yalnızca şehir ve ülke seviyesinde genel konum bilgisi elde edilmektedir. 
+              Kesin konum takibi yapılmamaktadır.
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Önemli Not:</strong> Bu veriler yalnızca teknik ve istatistiksel amaçlarla toplanmaktadır. 
+            <strong>Hiçbir şekilde ticari amaçla kullanılmaz, satılmaz veya üçüncü kişilerle paylaşılmaz</strong> (Google Analytics hariç).
+          </p>
+
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">4. Kişisel Verilerin İşlenme Amaçları</h2>
+          <p style="margin-bottom: 1.5rem;">
+            Yukarıda belirtilen kişisel verileriniz, aşağıdaki meşru amaçlar doğrultusunda işlenmektedir:
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>Site Güvenliği:</strong> Kötü niyetli saldırıları (DDoS, SQL injection, XSS vb.) tespit etmek ve önlemek, 
+              spam ve bot trafiğini engellemek, sistem güvenliğini sağlamak.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Performans İyileştirme:</strong> Sitenin hangi cihaz ve tarayıcılarda nasıl performans gösterdiğini analiz etmek, 
+              yavaş yüklenen sayfaları tespit edip optimize etmek, kullanıcı deneyimini geliştirmek.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>İstatistiksel Analiz:</strong> Hangi sayfaların daha çok ziyaret edildiğini, ziyaretçi sayısını, 
+              coğrafi dağılımı ve trafik kaynaklarını anlamak. Bu bilgiler içerik stratejisi geliştirmek için kullanılır.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Hata Tespiti ve Düzeltme:</strong> Teknik hataları (404, 500 hataları vb.), bozuk linkleri ve 
+              uyumluluk sorunlarını tespit edip düzeltmek.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Yasal Yükümlülük:</strong> Yasal mercilerin talep etmesi durumunda, hukuki süreçlerde kullanılmak üzere 
+              gerekli kayıtları tutmak.
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Açık Rıza:</strong> Google Analytics çerezleri için açık rıza talep edilmektedir. 
+            Çerez kabul etmediğiniz sürece, analiz çerezleri aktif olmayacak ve sadece temel teknik veriler işlenecektir.
+          </p>
+
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">5. Google Analytics Kullanımı</h2>
+          <p style="margin-bottom: 2rem;">
+            Bu web sitesi, ziyaretçi trafiğini analiz etmek ve site performansını iyileştirmek amacıyla 
+            <strong>Google Analytics 4 (GA4)</strong> hizmetini kullanmaktadır. Google Analytics, Google LLC (ABD) tarafından sağlanan bir web analiz hizmetidir.
+          </p>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Önemli Özellikler ve Güvenlik Önlemleri:</strong>
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>IP Anonimleştirme:</strong> IP adresleri <code style="background-color: var(--second-bg-color); padding: 0.2rem 0.5rem; border-radius: 0.3rem;">anonymize_ip: true</code> 
+              ayarı ile toplanmakta ve son segmenti maskelenerek anonimleştirilmektedir. Bu sayede kimliğiniz tespit edilemez.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Consent Mode (Rıza Modu):</strong> Google Analytics, <strong>KVKK ve GDPR uyumlu Consent Mode v2</strong> ile yapılandırılmıştır. 
+              Bu sistem sayesinde, siz açık rıza vermeden hiçbir analitik veri toplanmaz.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Varsayılan Durum - DENIED:</strong> Siteye ilk girişinizde, tüm analitik izinler varsayılan olarak <strong>"denied" (reddedilmiş)</strong> durumundadır. 
+              Çerez banner'ından "Kabul Et" butonuna tıklayana kadar Google Analytics aktif olmaz.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Çerez Reddi:</strong> Çerez banner'ında "Reddet" seçeneğini kullanırsanız, Google Analytics tamamen devre dışı kalır 
+              ve hiçbir davranış verisi toplanmaz. Bu tercih 365 gün boyunca hatırlanır.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Toplanan Veriler:</strong> Google Analytics üzerinden sayfa görüntülemeleri, oturum süreleri, cihaz türleri, 
+              coğrafi konum (şehir/ülke seviyesinde) ve trafik kaynakları gibi anonim istatistiksel veriler toplanır.
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Açık Rıza Gereksinimi:</strong> Google Analytics, yalnızca sizin açık rızanızla çalışmaktadır. 
+            Rıza vermediğiniz sürece hiçbir kişisel veri Google ile paylaşılmaz. 
+            Daha fazla bilgi için <a href="https://policies.google.com/privacy?hl=tr" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline;">Google Gizlilik Politikası</a>'nı inceleyebilirsiniz.
+          </p>
+
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">6. Çerezler (Cookies)</h2>
+          <p style="margin-bottom: 2rem;">
+            Çerezler, web sitelerinin tarayıcınızda sakladığı küçük metin dosyalarıdır. 
+            Bu site, işlevsellik ve analiz amaçlı çerezler kullanmaktadır. Çerez tercihlerinizi istediğiniz zaman değiştirebilirsiniz.
+          </p>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Kullanılan Çerez Türleri:</strong>
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1.5rem;">
+              <strong>Zorunlu Çerezler:</strong>
+              <ul style="margin-left: 2rem; margin-top: 0.5rem; list-style: circle;">
+                <li style="margin-bottom: 0.5rem;">
+                  <code style="background-color: var(--second-bg-color); padding: 0.2rem 0.5rem; border-radius: 0.3rem;">cookie_consent_v1</code>: 
+                  Çerez tercihlerinizi (kabul/ret) hatırlamak için kullanılır. Bu çerez olmadan, her ziyaretinizde size çerez banner'ı gösterilir. 
+                  Süre: 365 gün.
+                </li>
+                <li style="margin-bottom: 0.5rem;">
+                  Bu çerezler sitenin temel işlevselliği için gereklidir ve devre dışı bırakılamaz.
+                </li>
+              </ul>
+            </li>
+            <li style="margin-bottom: 1.5rem;">
+              <strong>Analitik Çerezler (Google Analytics):</strong>
+              <ul style="margin-left: 2rem; margin-top: 0.5rem; list-style: circle;">
+                <li style="margin-bottom: 0.5rem;">
+                  <code style="background-color: var(--second-bg-color); padding: 0.2rem 0.5rem; border-radius: 0.3rem;">_ga</code>, 
+                  <code style="background-color: var(--second-bg-color); padding: 0.2rem 0.5rem; border-radius: 0.3rem;">_ga_*</code>: 
+                  Google Analytics tarafından kullanılan çerezlerdir. Ziyaretçileri ve oturumları ayırt etmek için kullanılır.
+                </li>
+                <li style="margin-bottom: 0.5rem;">
+                  Bu çerezler <strong>yalnızca açık rızanızla</strong> aktif olur. Çerez banner'ından reddetmeniz durumunda bu çerezler oluşturulmaz.
+                </li>
+                <li style="margin-bottom: 0.5rem;">
+                  Süre: Maksimum 2 yıl (Google'ın varsayılan ayarı).
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem;">
+            <strong>Çerez Tercihlerinizi Değiştirme:</strong> Tarayıcınızın ayarlarından tüm çerezleri silebilir veya engelleyebilirsiniz. 
+            Ancak zorunlu çerezleri engellerseniz, site düzgün çalışmayabilir ve her ziyaretinizde çerez banner'ı görüntülenecektir.
+          </p>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Kullanıcı Kontrolü:</strong> Çerez tercihleriniz tarayıcınızda saklanır ve istediğiniz zaman tarayıcı ayarlarından değiştirebilirsiniz. 
+            Çerez tercihlerinizi sıfırlamak için tarayıcınızdan <code style="background-color: var(--bg-color); padding: 0.2rem 0.5rem; border-radius: 0.3rem;">cookie_consent_v1</code> 
+            çerezini silmeniz yeterlidir, böylece çerez banner'ı tekrar gösterilecektir.
+          </p>
+
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">7. WhatsApp Yönlendirmesi ve Üçüncü Taraf Hizmetler</h2>
+          <p style="margin-bottom: 2rem;">
+            Bu web sitesinde, benimle iletişime geçmeniz için <strong>WhatsApp yönlendirme</strong> özelliği bulunmaktadır. 
+            İletişim formuna yazdığınız mesaj, doğrudan WhatsApp uygulamasına yönlendirilir ve <strong>bu web sitesi tarafından hiçbir şekilde kaydedilmez veya saklanmaz</strong>.
+          </p>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Nasıl Çalışır:</strong>
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 0.5rem;">İletişim formuna mesajınızı yazarsınız.</li>
+            <li style="margin-bottom: 0.5rem;">"WhatsApp'tan Gönder" butonuna tıkladığınızda, mesaj metni URL parametresi olarak WhatsApp'a yönlendirilir.</li>
+            <li style="margin-bottom: 0.5rem;">WhatsApp uygulaması veya WhatsApp Web açılır ve mesaj hazır halde görünür.</li>
+            <li style="margin-bottom: 0.5rem;">Siz "Gönder" butonuna basana kadar mesaj WhatsApp sunucularına bile gönderilmez.</li>
+          </ul>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Önemli Not:</strong> WhatsApp yönlendirmesi yapıldığında, <strong>WhatsApp Inc. (Meta Platforms, Inc.)</strong> altyapısına geçiş yapmış olursunuz. 
+            Bu noktadan sonra, WhatsApp'ın kendi gizlilik politikası geçerli olur. 
+            Daha fazla bilgi için <a href="https://www.whatsapp.com/legal/privacy-policy?lang=tr" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline;">WhatsApp Gizlilik Politikası</a>'nı inceleyebilirsiniz.
+          </p>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Diğer Üçüncü Taraf Hizmetler:</strong>
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>Google Fonts:</strong> Site tasarımında kullanılan fontlar, Google Fonts üzerinden yüklenmektedir. 
+              Google Fonts, font dosyalarını yüklerken IP adresinizi görebilir. 
+              Daha fazla bilgi: <a href="https://policies.google.com/privacy?hl=tr" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline;">Google Gizlilik Politikası</a>
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Boxicons:</strong> Site ikonları için Boxicons CDN kullanılmaktadır. Bu hizmet, ikon dosyalarını yüklerken teknik bilgiler (IP adresi) toplayabilir.
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem;">
+            Bu üçüncü taraf hizmetler, yalnızca sitenin görsel ve işlevsel performansını sağlamak için kullanılmaktadır. 
+            Hiçbir kişisel veri bu hizmetler aracılığıyla bilerek paylaşılmamaktadır.
+          </p>
+
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">8. Sunucu Logları ve Teknik Veriler</h2>
+          <p style="margin-bottom: 2rem;">
+            Web sitesi sunucusu, her ziyaret için otomatik olarak teknik log kayıtları oluşturmaktadır. 
+            Bu loglar, sitenin teknik işleyişi ve güvenliği için gereklidir ve aşağıdaki bilgileri içerir:
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 0.5rem;">Ziyaret edilen URL adresi</li>
+            <li style="margin-bottom: 0.5rem;">HTTP durum kodu (200, 404, 500 vb.)</li>
+            <li style="margin-bottom: 0.5rem;">İstek zamanı ve tarihi</li>
             <li style="margin-bottom: 0.5rem;">IP adresi (anonimleştirilmiş)</li>
-            <li style="margin-bottom: 0.5rem;">Tarayıcı türü ve versiyonu</li>
-            <li style="margin-bottom: 0.5rem;">İşletim sistemi</li>
-            <li style="margin-bottom: 0.5rem;">Ziyaret edilen sayfalar</li>
-            <li style="margin-bottom: 0.5rem;">Ziyaret süresi ve tarihi</li>
-            <li style="margin-bottom: 0.5rem;">Referans URL (hangi siteden geldiğiniz)</li>
+            <li style="margin-bottom: 0.5rem;">Tarayıcı ve işletim sistemi bilgisi</li>
+            <li style="margin-bottom: 0.5rem;">Referans URL (nereden geldiğiniz)</li>
+            <li style="margin-bottom: 0.5rem;">Veri transfer miktarı (byte cinsinden)</li>
           </ul>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Saklama Süresi:</strong> Sunucu logları, teknik zorunluluklar ve güvenlik nedeniyle maksimum 30 gün süreyle saklanmakta, 
+            ardından otomatik olarak silinmektedir.
+          </p>
           <p style="margin-bottom: 2rem;">
-            <strong>Önemli:</strong> Bu web sitesi, WhatsApp iletişim formu dışında herhangi bir kişisel bilgi (isim, e-posta, telefon vb.) toplamamaktadır. 
-            WhatsApp iletişim formu üzerinden gönderdiğiniz mesajlar doğrudan WhatsApp uygulamasına yönlendirilmekte ve bu web sitesi tarafından saklanmamaktadır.
+            <strong>Kullanım Amacı:</strong> Bu loglar yalnızca sistem hataları, güvenlik tehditleri ve performans sorunlarının 
+            tespit edilmesi amacıyla incelenmektedir. <strong>Hiçbir şekilde ticari amaçla kullanılmaz veya üçüncü kişilerle paylaşılmaz.</strong>
           </p>
 
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">3. Çerezler (Cookies)</h2>
-          <p style="margin-bottom: 1.5rem;">
-            Bu web sitesi, aşağıdaki amaçlarla çerezler kullanmaktadır:
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">9. Kişisel Verilerin Saklama Süresi</h2>
+          <p style="margin-bottom: 2rem;">
+            Kişisel verileriniz, yalnızca işlenme amaçlarının gerektirdiği süre boyunca saklanmakta ve yasal saklama süreleri sona erdiğinde silinmektedir. 
+            Bu web sitesinde toplanan veriler için saklama süreleri şu şekildedir:
           </p>
           <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
-            <li style="margin-bottom: 0.5rem;">
-              <strong>Google Analytics:</strong> Site trafiğini analiz etmek ve kullanıcı deneyimini iyileştirmek için kullanılmaktadır. 
-              IP adresleri anonimleştirilerek saklanmaktadır.
+            <li style="margin-bottom: 1rem;">
+              <strong>Sunucu Logları:</strong> Maksimum <strong>30 gün</strong> süreyle saklanır ve ardından otomatik olarak silinir. 
+              Bu loglar, teknik sorunları tespit etmek ve güvenlik olaylarını araştırmak için gereklidir.
             </li>
-            <li style="margin-bottom: 0.5rem;">
-              <strong>Çerez Tercihleri:</strong> Çerez kabul/red tercihinizi hatırlamak için kullanılmaktadır.
+            <li style="margin-bottom: 1rem;">
+              <strong>Google Analytics Verileri:</strong> Google Analytics'te toplanan veriler, Google'ın veri saklama politikasına göre 
+              <strong>maksimum 14 ay</strong> süreyle saklanmaktadır. Bu süre Google Analytics ayarlarından kontrol edilebilir ve değiştirilebilir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Çerez Tercihleri (cookie_consent_v1):</strong> <strong>365 gün (1 yıl)</strong> süreyle tarayıcınızda saklanır. 
+              Bu süre sonunda çerez otomatik olarak sona erer ve çerez banner'ı tekrar gösterilir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>WhatsApp Mesajları:</strong> İletişim formundan gönderdiğiniz mesajlar <strong>bu web sitesi tarafından hiçbir şekilde saklanmaz</strong>. 
+              Mesajlar doğrudan WhatsApp uygulamasına yönlendirilir ve WhatsApp'ın kendi saklama politikasına tabidir.
             </li>
           </ul>
-          <p style="margin-bottom: 2rem;">
-            Çerezleri tarayıcı ayarlarınızdan yönetebilir veya reddedebilirsiniz. Ancak çerezleri reddetmeniz durumunda, 
-            web sitesinin bazı özellikleri düzgün çalışmayabilir.
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Veri Silme:</strong> Belirtilen saklama süreleri sonunda, kişisel verileriniz otomatik olarak sistemlerimizden silinmektedir. 
+            Daha erken silme talebinde bulunmak isterseniz, iletişim bölümünden bana ulaşabilirsiniz.
           </p>
 
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">4. Verilerin Kullanım Amacı</h2>
-          <p style="margin-bottom: 1.5rem;">
-            Toplanan veriler aşağıdaki amaçlarla kullanılmaktadır:
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">10. Kişisel Verilerin Aktarılması</h2>
+          <p style="margin-bottom: 2rem;">
+            Bu web sitesinde toplanan kişisel verileriniz, yalnızca aşağıda belirtilen durumlarda ve meşru gerekçelerle üçüncü taraflarla paylaşılmaktadır:
           </p>
           <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
-            <li style="margin-bottom: 0.5rem;">Web sitesi trafiğini analiz etmek</li>
-            <li style="margin-bottom: 0.5rem;">Kullanıcı deneyimini iyileştirmek</li>
-            <li style="margin-bottom: 0.5rem;">Teknik sorunları tespit etmek ve çözmek</li>
-            <li style="margin-bottom: 0.5rem;">İçerik optimizasyonu yapmak</li>
-          </ul>
-
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">5. Verilerin Paylaşımı</h2>
-          <p style="margin-bottom: 2rem;">
-            Bu web sitesi, toplanan verileri yalnızca Google Analytics hizmeti ile paylaşmaktadır. 
-            Verileriniz üçüncü taraflarla satılmamakta, kiralanmamakta veya ticari amaçlarla kullanılmamaktadır.
-          </p>
-
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">6. Veri Güvenliği</h2>
-          <p style="margin-bottom: 2rem;">
-            Web sitesi, verilerinizin güvenliğini sağlamak için uygun teknik ve idari önlemler almaktadır. 
-            Ancak internet üzerinden veri iletiminin %100 güvenli olmadığını unutmayınız.
-          </p>
-
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">7. KVKK (Kişisel Verilerin Korunması Kanunu) Haklarınız</h2>
-          <p style="margin-bottom: 1.5rem;">
-            6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında aşağıdaki haklara sahipsiniz:
-          </p>
-          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
-            <li style="margin-bottom: 0.5rem;">Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
-            <li style="margin-bottom: 0.5rem;">İşlenmişse buna ilişkin bilgi talep etme</li>
-            <li style="margin-bottom: 0.5rem;">İşlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme</li>
-            <li style="margin-bottom: 0.5rem;">Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme</li>
-            <li style="margin-bottom: 0.5rem;">Eksik veya yanlış işlenmişse düzeltilmesini isteme</li>
-            <li style="margin-bottom: 0.5rem;">Kanunda öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme</li>
-          </ul>
-          <p style="margin-bottom: 2rem;">
-            Bu haklarınızı kullanmak için <a href="../index.html#contact" style="color: var(--main-color); text-decoration: underline;">iletişim</a> bölümünden bana ulaşabilirsiniz.
-          </p>
-
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">8. Üçüncü Taraf Hizmetler</h2>
-          <p style="margin-bottom: 1.5rem;">
-            Bu web sitesi aşağıdaki üçüncü taraf hizmetleri kullanmaktadır:
-          </p>
-          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
-            <li style="margin-bottom: 0.5rem;">
-              <strong>Google Analytics:</strong> 
-              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline;">
-                Google Gizlilik Politikası
-              </a>
+            <li style="margin-bottom: 1rem;">
+              <strong>Google Analytics (Google LLC - ABD):</strong> Site trafiği ve kullanıcı davranışlarını analiz etmek amacıyla, 
+              açık rızanız dahilinde anonim veriler Google Analytics'e aktarılmaktadır. Google, bu verileri kendi sunucularında işlemektedir. 
+              Google, GDPR uyumlu standart sözleşme maddeleri (Standard Contractual Clauses - SCC) ile veri koruma garantisi sağlamaktadır.
             </li>
-            <li style="margin-bottom: 0.5rem;">
-              <strong>WhatsApp:</strong> İletişim formu WhatsApp'a yönlendirmektedir. 
-              <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline;">
-                WhatsApp Gizlilik Politikası
-              </a>
+            <li style="margin-bottom: 1rem;">
+              <strong>Google Fonts ve Boxicons CDN:</strong> Site tasarımı için kullanılan font ve ikon dosyaları, 
+              bu CDN hizmetlerinden yüklenmektedir. Bu süreçte IP adresiniz bu hizmet sağlayıcılar tarafından görülebilir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>WhatsApp (Meta Platforms, Inc. - ABD):</strong> İletişim formu üzerinden mesaj gönderdiğinizde, 
+              WhatsApp altyapısına yönlendirilirsiniz. Bu noktadan sonra WhatsApp'ın kendi gizlilik politikası geçerli olur.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Yasal Zorunluluk:</strong> Yasal mercilerin (mahkeme, savcılık, emniyet vb.) resmi talebi olması durumunda, 
+              yasal yükümlülüklerimizi yerine getirmek için gerekli bilgiler paylaşılabilir.
             </li>
           </ul>
-
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">9. Çocukların Gizliliği</h2>
-          <p style="margin-bottom: 2rem;">
-            Bu web sitesi, 18 yaş altındaki çocuklardan bilerek kişisel bilgi toplamamaktadır. 
-            Eğer bir çocuğun kişisel bilgilerinin toplandığını düşünüyorsanız, lütfen derhal iletişime geçin.
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Ticari Paylaşım Yapılmaz:</strong> Kişisel verileriniz hiçbir şekilde ticari amaçlarla satılmaz, kiralanmaz veya 
+            pazarlama amacıyla üçüncü taraflarla paylaşılmaz. Yalnızca yukarıda belirtilen teknik ve yasal gereklilikler için aktarım yapılmaktadır.
           </p>
 
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">10. Gizlilik Politikasının Değişiklikleri</h2>
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">11. KVKK ve GDPR Kapsamındaki Kullanıcı Hakları</h2>
           <p style="margin-bottom: 2rem;">
-            Bu gizlilik politikası, gerektiğinde güncellenebilir. Önemli değişiklikler yapıldığında, 
-            web sitesinde bildirim yapılacak ve "Son Güncelleme" tarihi güncellenecektir.
+            6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) kapsamında, 
+            kişisel verileriniz ile ilgili aşağıdaki haklara sahipsiniz:
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>Bilgi Alma Hakkı:</strong> Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin detaylı bilgi talep etme hakkına sahipsiniz. 
+              Hangi verilerinizin toplandığını, ne amaçla kullanıldığını ve kiminle paylaşıldığını öğrenebilirsiniz.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Düzeltme Hakkı:</strong> Kişisel verilerinizin eksik veya yanlış işlenmiş olması durumunda, 
+              bunların düzeltilmesini talep edebilirsiniz. Düzeltme işlemi makul sürede gerçekleştirilecektir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Silme (Unutulma) Hakkı:</strong> KVKK ve GDPR'nin öngördüğü şartlar dahilinde, 
+              kişisel verilerinizin silinmesini veya yok edilmesini talep edebilirsiniz. Yasal saklama yükümlülüğü olmayan veriler derhal silinecektir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>İtiraz Hakkı:</strong> Kişisel verilerinizin işlenmesine itiraz etme hakkına sahipsiniz. 
+              Özellikle doğrudan pazarlama amaçlı işlemlere (bu sitede bulunmamaktadır) her zaman itiraz edebilirsiniz.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Veri Taşınabilirliği Hakkı (GDPR):</strong> İşlediğimiz verilerinizi yapılandırılmış, yaygın kullanılan ve 
+              makine tarafından okunabilir bir formatta talep edebilirsiniz.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Otomatik Karar Alma ve Profilleme:</strong> Bu web sitesinde otomatik karar verme mekanizması veya 
+              profilleme yapılmamaktadır. Tüm analizler anonim istatistiksel veriler üzerinden yapılmaktadır.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Şikayet Hakkı:</strong> Kişisel Verileri Koruma Kurumu'na (KVKK - Türkiye) veya 
+              yerel veri koruma otoritelerine (GDPR - AB) şikayette bulunma hakkınız bulunmaktadır.
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Haklarınızı Kullanmak İçin:</strong> Yukarıdaki haklarınızı kullanmak için, 
+            <a href="#iletisim" style="color: var(--main-color); text-decoration: underline;">13. İletişim</a> bölümünden belirtilen yöntemlerle bana ulaşabilirsiniz. 
+            Talebiniz, kimliğinizi doğruladıktan sonra en geç 30 gün içinde yanıtlanacaktır.
           </p>
 
-          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">11. İletişim</h2>
+          <h2 style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">12. Açık Rıza ve Rızanın Geri Alınması</h2>
           <p style="margin-bottom: 2rem;">
-            Gizlilik politikası ile ilgili sorularınız veya KVKK haklarınızı kullanmak istiyorsanız, 
-            lütfen <a href="../index.html#contact" style="color: var(--main-color); text-decoration: underline;">iletişim</a> bölümünden bana ulaşın.
+            Bu web sitesi, KVKK ve GDPR uyumlu olarak <strong>açık rıza prensibi</strong> ile çalışmaktadır. 
+            Kişisel verilerinizin işlenmesi için açık rızanız talep edilmekte ve rızanızı istediğiniz zaman geri alabilirsiniz.
           </p>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Açık Rıza Gerektiren Durumlar:</strong>
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>Google Analytics Çerezleri:</strong> Siteyi ilk ziyaret ettiğinizde, çerez banner'ı üzerinden 
+              Google Analytics çerezlerini kabul edip etmeme konusunda seçim yaparsınız. 
+              "Kabul Et" butonuna tıklamanız, analitik verilerinizin toplanması için <strong>açık rıza verdiğiniz</strong> anlamına gelir.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>WhatsApp Yönlendirmesi:</strong> İletişim formunda "WhatsApp'tan Gönder" butonuna tıklamanız, 
+              mesajınızın WhatsApp'a yönlendirilmesine açık rıza verdiğiniz anlamına gelir.
+            </li>
+          </ul>
+          <p style="margin-bottom: 1.5rem;">
+            <strong>Rızanızı Geri Almak İçin:</strong>
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2rem; list-style: disc;">
+            <li style="margin-bottom: 1rem;">
+              <strong>Çerezler İçin:</strong> Tarayıcınızın ayarlarından <code style="background-color: var(--second-bg-color); padding: 0.2rem 0.5rem; border-radius: 0.3rem;">cookie_consent_v1</code> 
+              çerezini silebilirsiniz. Çerezi sildikten sonra siteyi yenilediğinizde, çerez banner'ı tekrar gösterilecek ve "Reddet" seçeneğini seçerek 
+              rızanızı geri alabilirsiniz.
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <strong>Tüm Veriler İçin:</strong> Kişisel verilerinizin işlenmesine dair rızanızı tamamen geri almak isterseniz, 
+              <a href="#iletisim" style="color: var(--main-color); text-decoration: underline;">13. İletişim</a> bölümünden bana ulaşabilirsiniz. 
+              Rızanızı geri aldığınızda, verileriniz en kısa sürede silinecektir.
+            </li>
+          </ul>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Önemli Not:</strong> Rızanızı geri almanız, rıza vermeden önce yapılan veri işleme faaliyetlerinin hukuka uygunluğunu etkilemez. 
+            Ancak rıza geri alındıktan sonra, yeni veri toplama işlemleri durdurulacaktır.
+          </p>
+
+          <h2 id="iletisim" style="font-size: 2.5rem; margin: 3rem 0 1.5rem; color: var(--main-color);">13. İletişim</h2>
+          <p style="margin-bottom: 2rem;">
+            Gizlilik politikası ile ilgili sorularınız, kişisel verilerinizin işlenmesine dair talepleriniz veya KVKK/GDPR haklarınızı kullanmak için 
+            aşağıdaki yöntemlerle benimle iletişime geçebilirsiniz:
+          </p>
+          <div style="background-color: var(--second-bg-color); padding: 2rem; border-radius: 1rem; margin-bottom: 2rem; border-left: 4px solid var(--main-color);">
+            <p style="margin-bottom: 1rem;"><strong>Veri Sorumlusu:</strong> Bünyamin Karahanlı</p>
+            <p style="margin-bottom: 1rem;"><strong>Web Sitesi:</strong> <a href="https://bunyaminkarahanli.com" style="color: var(--main-color); text-decoration: underline;">https://bunyaminkarahanli.com</a></p>
+            <p style="margin-bottom: 0;"><strong>İletişim:</strong> <a href="../index.html#contact" style="color: var(--main-color); text-decoration: underline;">İletişim formu</a> üzerinden WhatsApp ile ulaşabilirsiniz.</p>
+          </div>
+          <p style="margin-bottom: 2rem;">
+            Taleplerinizi incelerken kimliğinizi doğrulamak amacıyla ek bilgi talep edebilirim. 
+            Talepleriniz, KVKK ve GDPR'nin öngördüğü süreler içinde (en geç 30 gün) yanıtlanacaktır.
+          </p>
+          <p style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--second-bg-color); border-radius: 0.5rem; border-left: 3px solid var(--main-color);">
+            <strong>Şikayet Mekanizmaları:</strong><br>
+            <strong>Türkiye:</strong> Kişisel Verileri Koruma Kurumu (KVKK) - <a href="https://www.kvkk.gov.tr" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline;">www.kvkk.gov.tr</a><br>
+            <strong>AB/Avrupa:</strong> İlgili ülkenin yerel veri koruma otoritesi
+          </p>
+
+          <div style="margin-top: 4rem; padding: 2rem; background-color: var(--bg-color); border-radius: 1rem; border: 2px solid var(--main-color); text-align: center;">
+            <p style="margin-bottom: 1rem; font-size: 1.4rem; color: var(--text-color); opacity: 0.8;">
+              <strong>Son Güncelleme:</strong> Ocak 2026
+            </p>
+            <p style="margin-bottom: 0; font-size: 1.4rem; color: var(--text-color); opacity: 0.8;">
+              Bu gizlilik politikası gerektiğinde güncellenebilir. Önemli değişiklikler yapıldığında sizi bilgilendireceğiz.
+            </p>
+          </div>
 
           <div style="margin-top: 4rem; padding: 2rem; background-color: var(--second-bg-color); border-radius: 1rem; border: 1px solid var(--main-color);">
             <p style="margin: 0; text-align: center;">
@@ -185,7 +479,7 @@
 
     <footer role="contentinfo" style="margin-top: 5rem;">
       <p class="copyright" style="text-align: center; padding: 2rem;">
-        &copy; <time datetime="2025">2025</time> Bünyamin Karahanlı | Tüm Hakları Saklıdır. | 
+        &copy; <time datetime="2026">2026</time> Bünyamin Karahanlı | Tüm Hakları Saklıdır. | 
         <a href="kullanim-kosullari.html" style="color: var(--text-color); text-decoration: underline;">Kullanım Koşulları</a>
       </p>
     </footer>

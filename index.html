@@ -20,7 +20,8 @@
     <meta name="revisit-after" content="7 days" />
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://bunyaminkarahanli.com/" />
+    <link rel="canonical" href="https://bunyaminkarahanli.com.tr/" />
+    
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -52,6 +53,13 @@
     <!-- DNS Prefetch -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://unpkg.com" />
+    
+    <!-- Google Fonts - Optimized Loading -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" />
+    </noscript>
     
     <!-- External Resources -->
     <link
@@ -98,16 +106,27 @@
     }
     </script>
         
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VT9YNH7L0R"></script>
+    <!-- Google Analytics (GA4) + Consent Mode (default denied) -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted'
+      });
+
       gtag('js', new Date());
       gtag('config', 'G-VT9YNH7L0R', {
-        'anonymize_ip': true
+        anonymize_ip: true
       });
     </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VT9YNH7L0R"></script>
   </head>
 
   <body>

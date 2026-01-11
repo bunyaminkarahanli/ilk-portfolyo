@@ -5,4 +5,4 @@ Allow: /
 Disallow: /uploads/
 
 # Sitemap
-Sitemap: https://bunyaminkarahanli.com/sitemap.xml
+Sitemap: https://bunyaminkarahanli.com.tr/sitemap.xml
