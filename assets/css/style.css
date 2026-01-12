@@ -849,7 +849,7 @@ footer .copyright {
     font-size: 50%;
   }
   section {
-    margin-top: 14rem;
+    margin-top: 0;
   }
 }
 
@@ -858,8 +858,7 @@ footer .copyright {
     font-size: 45%;
   }
   section {
-    margin-top: 15rem;
-    padding: 15.2rem 10% 10rem !important;
+    margin-top: 0;
   }
 }
 
@@ -867,17 +866,11 @@ footer .copyright {
   html {
     font-size: 42%;
   }
-  section {
-    padding: 20rem 10% 10rem !important;
-  }
 }
 
 @media (max-width: 784px) {
   html {
     font-size: 32%;
-  }
-  section {
-    padding: 21.5rem 10% 10rem !important;
   }
 
   /* Header mobil görünüm - padding azaltıldı */
@@ -1013,7 +1006,6 @@ footer .copyright {
   /* Home */
   .home {
     flex-direction: column-reverse;
-    margin-top: 30rem;
     gap: 5rem;
   }
 
@@ -1096,6 +1088,10 @@ footer .copyright {
     gap: 8rem !important;
   }
 
+  .about-text {
+    width: 100% !important;
+  }
+
   .about-container .about-text p {
     font-size: 2rem !important;
     line-height: 2.2rem;
@@ -1106,12 +1102,80 @@ footer .copyright {
     line-height: 6rem;
   }
 
+  /* About photo mobil */
+  .my-photo {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .my-photo::before {
+    width: 100%;
+    height: 100%;
+  }
+
+  .my-photo img {
+    width: calc(100% - 4px);
+    height: auto;
+    min-height: 30rem;
+  }
+
+  /* Services mobil */
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 2rem 0;
+  }
+
+  .services-card {
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+
+  /* Footer mobil */
+  footer nav {
+    margin-left: 0;
+  }
+
+  footer .social-icons a {
+    margin: 0 1rem;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  footer .social-icons i {
+    font-size: 3rem;
+  }
+
   /* WhatsApp contact mobil */
   .whatsapp-box textarea {
     width: 90%;
   }
   .whatsapp-box button {
     width: 70%;
+  }
+
+  /* Override: Navbar ile BK logo arasındaki boşluğu kaldır */
+  section {
+    margin-top: 0 !important;
+    padding: 10rem 8% 8rem !important; /* üst padding küçültüldü */
+    min-height: auto;                  /* 100vh mobilde fazla boşluk üretebilir */
+  }
+
+  .home {
+    margin-top: 0 !important; /* en kritik: 30rem boşluğu kaldırır */
+    padding-top: 15rem !important;  /* önceki 13rem -> biraz daha aşağı */
+    gap: 4rem;
+  }
+
+  .home img {
+    margin-top: 0 !important;       /* resmi yukarı çeken negatif margin iptal */
+  }
+
+  .header {
+    padding: 1.6rem 5% !important; /* mobilde header daha kompakt */
   }
 }
 
