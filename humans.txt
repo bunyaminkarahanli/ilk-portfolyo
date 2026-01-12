@@ -1,6 +1,6 @@
 /* TEAM */
 Developer: Bünyamin Karahanlı
-Contact: https://bunyaminkarahanli.com/pages/gizlilik-politikasi.html
+Contact: https://bunyaminkarahanli.com.tr/pages/gizlilik-politikasi.html
 From: Turkey
 Twitter: @karahanlibunyo
 GitHub: bunyaminkarahanli

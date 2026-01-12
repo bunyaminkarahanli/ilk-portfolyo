@@ -736,9 +736,11 @@ img[loading="lazy"] {
 }
 
 .my-photo img {
-  width: 24.6rem;
-  height: auto;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  object-fit: cover;
   z-index: 1;
+  border-radius: 3.5rem;
 }
 
 /*
